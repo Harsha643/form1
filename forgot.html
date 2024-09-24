@@ -6,13 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="forgot.html">
+    <form action="forgot response.html">
         <fieldset>
             <legend>forgot </legend>
-            <input type="text"name="username"placeholder="username "><br>
-            <input type="otp"name="otp"placeholder="enter otp"><br>
-                <button>      <a href="forgot response.html">submit</a></button>
-            
+            <input type="text"name="username"placeholder="username " pattern="[A-Za-z]{8,16}" title="should be min 8 and max 16 "required><br>
+            <input type="text"name="otp"  inputmode="numeric" placeholder="enter otp" pattern="[0-9]+"required><br>
+            <input type="submit">
 
 
 
